@@ -1,0 +1,41 @@
+.container-full {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container-narrow {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px dashed #56517E;
+    text-align: center;
+    align-items: center;
+}
+
+.container-wide {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    margin-left: 20px;
+    border: 2px dashed #56517E;
+}
+
+body {
+   font-family: "Courier New", Courier, monospace;
+}
+
+table {
+    padding: 0px;
+}
+
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+th {
+    background-color: #7771a7ab;
+}
