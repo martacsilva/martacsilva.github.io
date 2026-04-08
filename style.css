@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
 }
 
 .container-narrow {
@@ -11,6 +12,7 @@
     border: 2px dashed #56517E;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container-wide {
@@ -20,6 +22,7 @@
     width: 90%;
     margin-left: 20px;
     border: 2px dashed #56517E;
+    justify-content: space-between;
 }
 
 body {
@@ -38,4 +41,9 @@ th, td {
 
 th {
     background-color: #7771a7ab;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
